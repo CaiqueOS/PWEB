@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(8, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.clear {
+    clear: both;
+}
+
+article {
+    background-color: rgb(134, 60, 60);
+    border: 1px solid rgb(54, 3, 3);
+    border-color: rgb(77, 5, 5);
+    margin-bottom: 50px;
+    padding: 10px;
+    color: rgb(49, 0, 0);
+}
+
+article p {
+    margin-top: 6px;
+}
+
+article h2 {
+    margin: 0;
+}
+
+article img {
+    border: 1px solid rgb(77, 5, 5);
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 1px;
+    width: 160px;
+    height: 160px;
+}
+
+section {
+    float: left;
+    width: 660px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    padding-top: 0;
+}
+
+nav ul{
+    padding: 0;
+    height: 40px;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    background-color: rgb(139, 3, 3);
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(39, 1, 1);
+}
+
+nav li:hover{
+    background-color: rgb(189, 5, 5);
+    color:#ffcdcd;
+}
+
+nav li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    display: inline;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+nav li:first-child {
+    border-left: none;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    height: 60px;
+    width: 960px;
+    background-color: rgb(8, 0, 0);
+}
+
+header img{
+    width: 180px;
+    height: 40px;
+    display: inline-block;
+    vertical-align:top;
+}
+
+header h1 {
+    color: rgb(204, 2, 2);
+    text-decoration: none;
+    text-align: center;
+}
+
+aside {
+    background-color: #ffcdcd;
+    border: 1px solid rgb(77, 5, 5);
+    padding: 10px;
+    float: right;
+    width: 250px;
+}
+
+aside h3 {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+aside ol {
+    font-size: 15px;
+    list-style-type: none;
+}
+
+aside b{
+    color:rgb(145, 1, 1);
+}
+
+footer {
+    margin: 0;
+    color: #ffcdcd;
+    font-size: 13px;
+    text-align: center;
+}
