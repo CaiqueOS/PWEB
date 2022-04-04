@@ -1,0 +1,76 @@
+.mudacor{
+    width: 600px;
+    height: 600px;
+}
+
+@media screen and (max-width: 1920px){
+    
+    .mudacor{
+        background-color: yellow;
+    }
+
+    .mudacor h1:after{
+        content: "Amarelo";
+    }
+    
+}
+
+@media screen and (max-width: 1366px){
+    
+    .mudacor{
+        background-color: purple;
+    }
+
+    .mudacor h1:after{
+        content: "Roxo";
+    }
+    
+}
+
+@media screen and (max-width: 1080px){
+    
+    .mudacor{
+        background-color: red;
+    }
+
+    .mudacor h1:after{
+        content: "Vermelho";
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    
+    .mudacor{
+        background-color: magenta;
+    }
+
+    .mudacor h1:after{
+        content: "Magenta";
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    
+    .mudacor{
+        background-color: orange;
+    }
+
+    .mudacor h1:after{
+        content: "Laranja";
+    }
+    
+}
+
+@media screen and (max-width: 420px){
+    
+    .mudacor{
+        background-color: grey;
+    }
+
+    .mudacor h1:after{
+        content: "Cinza";
+    }
+    
+}
