@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Atividade 8</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form method="post" id="form" class="form">
+            <h1>Formulário do Filme</h1>
+
+            <p>Insira os dados de 10 pessoas!</p>
+
+            <div class="item">
+                <h4>Idade</h4>
+                <input type="number" id="idade" name="idade">
+            </div>
+            
+            <div class="item">
+                <h4>Sexo</h4>
+                <div class="opcao">
+                    <input type="radio" id="masc" name="sexo" value="M" checked>
+                    <label for="masc">Masculino</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="radio" id="fem" name="sexo" value="F">
+                    <label for="fem">Feminino</label>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h4>Opinião</h4>
+                <div class="opcao">
+                    <input type="radio" id="opO" name="opiniao" value="O" checked>
+                    <label for="opO">Ótimo</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="radio" id="opB" name="opiniao" value="B">
+                    <label for="opB">Bom</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="radio" id="opR" name="opiniao" value="R">
+                    <label for="opR">Regular</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="radio" id="opP" name="opiniao" value="P">
+                    <label for="opP">Péssimo</label>
+                </div>
+            </div>
+            
+            <input type="button" onclick="enviar()" class="botao" value="Enviar">
+        </form>
+    </section>
+    
+</body>
+</html>
