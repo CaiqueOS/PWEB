@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section{
+    display: flex;
+    float: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+form{
+    float: center;
+    padding: 20px;
+    height: 500px;
+    width: 500px;
+}
+
+.numero input{
+    margin-bottom: 20px;
+    height: 27px;
+    width: 120px;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.botao{
+    height: 30px;
+    width: 150px;
+    margin-right: 10px;
+    font-size: 17px;
+    text-align: center;
+}
+
