@@ -7,7 +7,7 @@ function abre(){
 }
 
 function quebra(){
-    janela.src = "./img/janelaquebra.png";
+    janela.src = "./img/janelaquebrada.png";
     texto.innerHTML = "Você quebrou a janela!";
 }
 
