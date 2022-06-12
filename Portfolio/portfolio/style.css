@@ -1,0 +1,150 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    background-image: url("../img/stars.jpg");
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #feda4a;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.logo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    height: 250px;
+    width: 500px;
+}
+
+.texto{
+    letter-spacing: 2px;
+    line-height: 150%;
+}
+
+.titulo h2{
+    margin-bottom: 0;
+}
+
+.titulo h1{
+    margin-top: 5px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.sobre{
+    text-align: justify;
+    margin: 0 32% 0 32%;
+    font-size: 20px;
+}
+
+.sobre p{
+    margin-bottom: 40px;
+}
+
+.fade{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+    margin-bottom: 60px;
+}
+
+.fade.ativar{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.escola div:first-child img{
+    height: 100%;
+    width: 100%;
+}
+
+#escolaridade .escola{
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+
+.escola div:first-child{
+    width: 15%;
+    margin: 0 0;
+}
+
+.escola ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.escola li{
+    margin: 50px 0 50px 0;
+}
+
+.escola div:last-child{
+    width: 85%;
+}
+
+.escola div{
+    height: 100%;
+}
+
+.sessao{
+    min-height: 200px;
+    width: 80vw;
+    border: 1px #feda4a solid;
+    margin: 0 auto 50px;
+    padding: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+article{
+    margin: 0 10px 20px 10px;
+}
+
+article p{
+    font-size: 20px;
+}
+
+article img {
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 1px;
+    width: 160px;
+    height: 160px;
+}
+
+.projeto{
+    display: flex;
+    height: 400px;
+}
+
+.projeto div{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.projeto div img{
+    height: 100%;
+    opacity: 0;
+}
+
+.projeto div img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
