@@ -1,12 +1,30 @@
-function abrirPweb(){
-    var win = window.open("https://github.com/CaiqueOS/PWEB", '_blank');
-    win.focus();
+// function abrirPweb(){
+//     var win = window.open("https://github.com/CaiqueOS/PWEB", '_blank');
+//     win.focus();
+// }
+
+// function abrirLp2(){
+//     var win = window.open("https://github.com/CaiqueOS/LP2", '_blank');
+//     win.focus();
+// }
+
+const scroll = document.getElementById("millennium");
+
+function scrollTop() {
+    if (this.scrollY >= 120)
+        scroll.style.visibility = "visible";
+    else
+        scroll.style.visibility = "hidden";
 }
 
-function abrirLp2(){
-    var win = window.open("https://github.com/CaiqueOS/LP2", '_blank');
-    win.focus();
-}
+window.addEventListener('scroll', scrollTop);
+
+scroll.addEventListener("click", () => {
+    window.scroll({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
 
 
 function reveal() {
