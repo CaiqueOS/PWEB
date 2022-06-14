@@ -15,6 +15,10 @@ body{
     width: 100%;
 }
 
+a{
+    color: #feda4a;
+}
+
 .logo{
     margin-top: 50px;
     display: flex;
@@ -150,11 +154,6 @@ article img {
     cursor: pointer;
 }
 
-.projeto a{
-    text-decoration: none;
-    color: #feda4a;
-}
-
 #millennium {
     display: flex;
     justify-content: center;
@@ -176,8 +175,10 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    line-height: 0.1%;
     width: 100%;
-    height: 80px;
+    min-height: 80px;
     margin-top: 100px;
     background-color: black;
     border-top: 1px solid #feda4a;
